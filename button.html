@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div>   
+    <nav id="menuGral">
+        <ul>
+          <li>
+            <a href="index.html">POSICIONES</a>
+            <ul>
+              <li>
+                <a href="./assets/Home/Mision.html">Todos</a>
+              </li>
+              <li>
+                <a href="./assets/Home/valores.html">Portero</a>
+              </li>
+              <li>
+                <a href="./assets/Home/history.html">Defensa</a>
+              </li>
+              <li>
+                <a href="./assets/Home/coaches.html">Centrocampista</a>
+              </li>
+              <li>
+                <a href="./assets/Home/Mision.html">Delantero</a>
+              </li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="/assets/academy.html">AGENCIA</a>
+            <ul>
+              <li>
+                <a href="./AcademyPages/recreative.html">Todas</a>
+              </li>
+              <li>
+                <a href="./AcademyPages/competitive.html">Internacional</a>
+              </li>
+              <li>
+                <a href="./AcademyPages/goalkeepers.html">España</a>
+              </li>
+              <li>
+                <a href="./AcademyPages/highPerformance.html">Usa</a>
+              </li>
+              <li>
+                <a href="./AcademyPages/highPerformance.html">Argentina</a>
+              </li>
+              <li>
+                <a href="./AcademyPages/highPerformance.html">Chile</a>
+              </li>
+              <li>
+                <a href="./AcademyPages/highPerformance.html">Paraguay</a>
+              </li>
+            
+            
+            </ul>
+          </li>
+      </nav>    
+      <style>
+        #menuGral {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    #menuGral ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 0;
+    
+    }
+    #menuGral > ul li {
+        float: left;
+      list-style: none;
+      text-align: center;
+      color: white;
+      background-color: black;
+      margin-right: 30px;
+      padding: 15px;
+      line-height: 10px;
+    }
+    #menuGral li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--secundaryColor);
+    padding: 8px;
+    }
+    #menuGral li:hover a,
+    #menuGral li a:focus {
+    color: var(--secundaryColor);
+    }
+    
+    #menuGral li ul {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    }
+    #menuGral li:hover ul,
+    #menuGral li:focus ul {
+    width: 100%;
+    background: transparent;
+    z-index: 5;
+    }
+    #menuGral li li {
+    display: block;
+    padding: 2px;
+    }
+    #menuGral li:hover li a,
+    #menuGral li:focus li a {
+    font-size: 0.9rem;
+    line-height: 1.9rem;
+    
+    background: rgba(0, 0, 0, 0.512);
+    }
+    #menuGral li li a:hover,
+    #menuGral li li a:focus {
+    background: white;
+    color: black;
+    }
+    nav img {
+    border-right: white;
+    width: 300px;
+    height: 90px;
+    }
+    /* BUTTON NAV */
+    .btnFreeTest {
+    padding: 9px;
+    border-radius: 40px;
+    background-color: var(--academyColor);
+    color: var(--secundaryColor);
+    transition: 0.2s;
+    }
+    
+    .btnFreeTest:hover {
+    background-color: var(--secundaryColor);
+    color: var(--academyColor);
+    }
+    </style>
+</div>
+
+
+
+</html>
